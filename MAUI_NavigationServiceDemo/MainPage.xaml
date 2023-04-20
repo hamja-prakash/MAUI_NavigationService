@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MAUI_NavigationServiceDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewModels="clr-namespace:MAUI_NavigationServiceDemo.ViewModels"
+    x:DataType="viewModels:MainPageViewModel">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+        <Button
+            Command="{Binding NavigateToStudentListCommand}"
+            HorizontalOptions="Center"
+            Text="Navigate To StudentList Page" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
